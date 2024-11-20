@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FastProxy 1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>FastProxy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>PacketTunnelProvider.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>58325BF62CE341CC00C4CBEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85DB93862CE0FABE00E86BE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85DB93962CE0FAC000E86BE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85DB93A02CE0FAC000E86BE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85DB94192CE137AF00E86BE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
