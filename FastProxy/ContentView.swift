@@ -33,6 +33,39 @@ struct ContentView: View {
                 .cornerRadius(15)
                 .padding(.horizontal)
                 
+                // Connection Details Card
+                VStack(alignment: .leading, spacing: 10) {
+                    HStack {
+                        Text("Domain:")
+                        Spacer()
+                        Text(vpnManager.currentDomain)
+                    }
+                    HStack {
+                        Text("IP:")
+                        Spacer()
+                        Text(vpnManager.currentIP)
+                    }
+                    HStack {
+                        Text("Port:")
+                        Spacer()
+                        Text(vpnManager.currentPort)
+                    }
+                    HStack {
+                        Text("Protocol:")
+                        Spacer()
+                        Text(vpnManager.currentProtocol)
+                    }
+                    HStack {
+                        Text("Username:")
+                        Spacer()
+                        Text(vpnManager.currentUsername)
+                    }
+                }
+                .padding()
+                .background(Color(.systemGray6))
+                .cornerRadius(15)
+                .padding(.horizontal)
+                
                 // VPN URL Input
                 TextField("Enter VPN URL", text: $vpnURL)
                     .textFieldStyle(RoundedBorderTextFieldStyle())

@@ -8,18 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		587544CD2CEE19300098D60C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DB93CA2CE1281000E86BE6 /* NetworkExtension.framework */; };
-		587545102CEE272E0098D60C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DB93CA2CE1281000E86BE6 /* NetworkExtension.framework */; };
-		587545182CEE272E0098D60C /* PacketTunnelProvider.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5875450F2CEE272E0098D60C /* PacketTunnelProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		587545162CEE272E0098D60C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85DB937F2CE0FABE00E86BE6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5875450E2CEE272E0098D60C;
-			remoteInfo = PacketTunnelProvider;
-		};
 		85DB93982CE0FAC000E86BE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 85DB937F2CE0FABE00E86BE6 /* Project object */;
@@ -43,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				587545182CEE272E0098D60C /* PacketTunnelProvider.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +41,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5875450F2CEE272E0098D60C /* PacketTunnelProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnelProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DB93872CE0FABE00E86BE6 /* FastProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DB93972CE0FAC000E86BE6 /* FastProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DB93A12CE0FAC000E86BE6 /* FastProxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastProxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,24 +57,9 @@
 			);
 			target = 85DB93862CE0FABE00E86BE6 /* FastProxy */;
 		};
-		5875451C2CEE272E0098D60C /* Exceptions for "PacketTunnelProvider" folder in "PacketTunnelProvider" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 5875450E2CEE272E0098D60C /* PacketTunnelProvider */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		587545112CEE272E0098D60C /* PacketTunnelProvider */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				5875451C2CEE272E0098D60C /* Exceptions for "PacketTunnelProvider" folder in "PacketTunnelProvider" target */,
-			);
-			path = PacketTunnelProvider;
-			sourceTree = "<group>";
-		};
 		85DB93892CE0FABE00E86BE6 /* FastProxy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -107,14 +81,6 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5875450C2CEE272E0098D60C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				587545102CEE272E0098D60C /* NetworkExtension.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		85DB93842CE0FABE00E86BE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,7 +112,6 @@
 				85DB93892CE0FABE00E86BE6 /* FastProxy */,
 				85DB939A2CE0FAC000E86BE6 /* FastProxyTests */,
 				85DB93A42CE0FAC000E86BE6 /* FastProxyUITests */,
-				587545112CEE272E0098D60C /* PacketTunnelProvider */,
 				85DB93C92CE1281000E86BE6 /* Frameworks */,
 				85DB93882CE0FABE00E86BE6 /* Products */,
 			);
@@ -158,7 +123,6 @@
 				85DB93872CE0FABE00E86BE6 /* FastProxy.app */,
 				85DB93972CE0FAC000E86BE6 /* FastProxyTests.xctest */,
 				85DB93A12CE0FAC000E86BE6 /* FastProxyUITests.xctest */,
-				5875450F2CEE272E0098D60C /* PacketTunnelProvider.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,28 +138,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5875450E2CEE272E0098D60C /* PacketTunnelProvider */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 587545192CEE272E0098D60C /* Build configuration list for PBXNativeTarget "PacketTunnelProvider" */;
-			buildPhases = (
-				5875450B2CEE272E0098D60C /* Sources */,
-				5875450C2CEE272E0098D60C /* Frameworks */,
-				5875450D2CEE272E0098D60C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				587545112CEE272E0098D60C /* PacketTunnelProvider */,
-			);
-			name = PacketTunnelProvider;
-			packageProductDependencies = (
-			);
-			productName = PacketTunnelProvider;
-			productReference = 5875450F2CEE272E0098D60C /* PacketTunnelProvider.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		85DB93862CE0FABE00E86BE6 /* FastProxy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85DB93AB2CE0FAC000E86BE6 /* Build configuration list for PBXNativeTarget "FastProxy" */;
@@ -208,7 +150,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				587545172CEE272E0098D60C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				85DB93892CE0FABE00E86BE6 /* FastProxy */,
@@ -276,9 +217,6 @@
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					5875450E2CEE272E0098D60C = {
-						CreatedOnToolsVersion = 16.1;
-					};
 					85DB93862CE0FABE00E86BE6 = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -309,19 +247,11 @@
 				85DB93862CE0FABE00E86BE6 /* FastProxy */,
 				85DB93962CE0FAC000E86BE6 /* FastProxyTests */,
 				85DB93A02CE0FAC000E86BE6 /* FastProxyUITests */,
-				5875450E2CEE272E0098D60C /* PacketTunnelProvider */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5875450D2CEE272E0098D60C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		85DB93852CE0FABE00E86BE6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,13 +276,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5875450B2CEE272E0098D60C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		85DB93832CE0FABE00E86BE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,11 +300,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		587545172CEE272E0098D60C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5875450E2CEE272E0098D60C /* PacketTunnelProvider */;
-			targetProxy = 587545162CEE272E0098D60C /* PBXContainerItemProxy */;
-		};
 		85DB93992CE0FAC000E86BE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 85DB93862CE0FABE00E86BE6 /* FastProxy */;
@@ -395,60 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5875451A2CEE272E0098D60C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = PacketTunnelProvider/PacketTunnelProvider.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D2ZU83W7LV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PacketTunnelProvider/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PacketTunnelProvider;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.incrementsinc.FastProxy.PacketTunnelProvider;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5875451B2CEE272E0098D60C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = PacketTunnelProvider/PacketTunnelProvider.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D2ZU83W7LV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PacketTunnelProvider/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PacketTunnelProvider;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.incrementsinc.FastProxy.PacketTunnelProvider;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		85DB93A92CE0FAC000E86BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -577,7 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FastProxy/Preview Content\"";
-				DEVELOPMENT_TEAM = D2ZU83W7LV;
+				DEVELOPMENT_TEAM = 925443NJ2J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FastProxy/Info.plist;
@@ -593,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.incrementsinc.FastProxy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxyapp.FastProxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -610,7 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FastProxy/Preview Content\"";
-				DEVELOPMENT_TEAM = D2ZU83W7LV;
+				DEVELOPMENT_TEAM = 925443NJ2J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FastProxy/Info.plist;
@@ -626,7 +490,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.incrementsinc.FastProxy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxyapp.FastProxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -709,15 +573,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		587545192CEE272E0098D60C /* Build configuration list for PBXNativeTarget "PacketTunnelProvider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5875451A2CEE272E0098D60C /* Debug */,
-				5875451B2CEE272E0098D60C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		85DB93822CE0FABE00E86BE6 /* Build configuration list for PBXProject "FastProxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

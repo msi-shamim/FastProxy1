@@ -6,25 +6,20 @@
 	<dict>
 		<key>FastProxy 1.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>FastProxy.xcscheme_^#shared#^_</key>
-		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
-		</dict>
-		<key>PacketTunnelProvider.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>58325BF62CE341CC00C4CBEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5875450E2CEE272E0098D60C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
